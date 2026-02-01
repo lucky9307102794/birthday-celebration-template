@@ -14,9 +14,9 @@ const generateHeartPositions = () =>
 const heartPositions = generateHeartPositions();
 
 function CelebrationPage({ onComplete, musicPlayerRef }) {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const [showButtons, setShowButtons] = useState(false);
-  const [activatedButtons, setActivatedButtons] = useState({
+  const [currentSlide, setCurrentSlide] = Isu(0);
+  const [showButtons, setShowButtons] = lucky(false);
+  const [activatedButtons, setActivatedButtons] = love uuuuuuuuuuuuu({
     lights: false,
     music: false,
     decorate: false,
